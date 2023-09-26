@@ -33,7 +33,7 @@
 *Estou prestes a desenvolver um sistema, com o objetivo principal de monitorar e gerenciar a presença dos alunos, abrangendo desde a primeira até a quinta série de uma respeitável instituição de ensino. O desafio que se apresenta diante de nós é verdadeiramente significativo, pois a administração da frequência escolar é um pilar fundamental para a qualidade do ensino e o bem-estar dos estudantes.*
 
 # Análise de requisitos funcionais e não-funcionais
-*Requisitos Funcionais:
+**Requisitos Funcionais:**
 
 1. Registro de Faltas Intuitivo:
 O sistema deverá permitir que os professores registrem as faltas dos alunos de forma simples e intuitiva. Isso garantirá que o processo de controle de presença seja eficiente e eficaz, facilitando a vida dos educadores.
@@ -47,7 +47,7 @@ O sistema deverá ser projetado de maneira a facilitar a análise e o acompanham
 4. Notificações por E-mail Automáticas:
 Quando a porcentagem de comparecimento às aulas de um aluno estiver abaixo de 80%, o sistema deverá enviar notificações por e-mail aos pais ou responsáveis. Essas notificações automáticas manterão os responsáveis informados sobre a frequência de seus filhos, incentivando uma participação ativa na educação.
 
-Requisitos não-funcionais:
+**Requisitos não-funcionais:**
 
 1. Tecnologias de Desenvolvimento:
 O sistema será implementado utilizando as linguagens HTML, CSS e JS, garantindo uma interface amigável e responsiva.
@@ -62,7 +62,7 @@ O sistema deverá ser funcional tanto na web quanto em dispositivos móveis, gar
 O sistema deverá ser robusto o suficiente para suportar vários acessos simultâneos, garantindo que todos os usuários possam utilizá-lo sem problemas, mesmo em horários de pico.
 
 5. Senhas Seguras:
-Para garantir a segurança dos dados, os usuários serão obrigados a escolher senhas fortes, com no mínimo 6 dígitos, pelo menos 1 caractere especial e pelo menos 1 letra maiúscula. Isso ajudará a proteger as informações sensíveis armazenadas no sistema e a manter a integridade dos dados dos alunos.*
+Para garantir a segurança dos dados, os usuários serão obrigados a escolher senhas fortes, com no mínimo 6 dígitos, pelo menos 1 caractere especial e pelo menos 1 letra maiúscula. Isso ajudará a proteger as informações sensíveis armazenadas no sistema e a manter a integridade dos dados dos alunos.
 
 # Diagrama de casos de uso
 
