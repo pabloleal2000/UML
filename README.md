@@ -23,7 +23,7 @@ O repositório define um modelo (*template*) que deverá ser seguido por cada gr
 
 # Documentação
 
-Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o seu conteúdo é publicado em **https://<usuario>.github.io/UML-Classroom-FCI/blob/master/docs/index.md**
+Os arquivos da documentação deste projeto estão na pasta [/docs](/docs), e o seu conteúdo é publicado em **https://github.com/pabloleal2000/UML/tree/master/docs**
 
 
 
