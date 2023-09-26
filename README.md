@@ -19,7 +19,7 @@ O repositório define um modelo (*template*) que deverá ser seguido por cada gr
 
 # Descrição
 
-*<Descrição_resumida_do_projeto>*
+*Estou prestes a desenvolver um sistema, com o objetivo principal de monitorar e gerenciar a presença dos alunos, abrangendo desde a primeira até a quinta série de uma respeitável instituição de ensino. O desafio que se apresenta diante de nós é verdadeiramente significativo, pois a administração da frequência escolar é um pilar fundamental para a qualidade do ensino e o bem-estar dos estudantes.*
 
 # Documentação
 
