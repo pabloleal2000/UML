@@ -70,7 +70,7 @@ Para garantir a segurança dos dados, os usuários serão obrigados a escolher s
 
 # Diagrama de casos de uso
 
-![alt](img/SistemaDePresença.png)
+![alt](src/../../src/img/SistemaDePresença.png)
 
 # Descrição dos casos de uso
 
@@ -131,7 +131,7 @@ Fluxo básico:
 
 # Diagrama de sequencia
 
-*&lt;Diagrama de ordem e interação dos objetos&gt;*
+![alt](../src/img/Diagrama%20de%20Sequencia.png)
 
 # Diagrama de classes
 
