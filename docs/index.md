@@ -15,6 +15,10 @@
 - [Análise de requisitos funcionais e não-funcionais](#análise-de-requisitos-funcionais-e-não-funcionais)
 - [Diagrama de casos de uso](#diagrama-de-casos-de-uso)
 - [Descrição dos casos de uso](#descrição-dos-casos-de-uso)
+  - [Registrar falta](#registrar-falta)
+  - [Relatório de Faltas](#relatório-de-faltas)
+  - [Notificaçoes](#notificaçoes)
+  - [Acessibilidade](#acessibilidade)
 - [Diagrama de sequencia](#diagrama-de-sequencia)
 - [Diagrama de classes](#diagrama-de-classes)
 - [Diagrama de Componentes](#diagrama-de-componentes)
@@ -70,7 +74,60 @@ Para garantir a segurança dos dados, os usuários serão obrigados a escolher s
 
 # Descrição dos casos de uso
 
-*&lt;Descrição do comportamento entre os atores/resquisitos&gt;*
+## Registrar falta
+
+Ator: Professores
+
+Descrição: O professor registra a falta do mesmo aluno em dois horários diferentes durante o dia.
+
+Fluxo básico:
+
+- O professor utiliza "Registrar Falta".
+- O sistema exibe a lista de turmas e alunos.
+- O professor escolhe a turma e identifica o aluno ausente.
+- O professor registra a ausência do aluno na data presente.
+- O sistema armazena a informação da falta registrada.
+  
+## Relatório de Faltas
+
+Ator: Professores
+
+Descrição: Produz um relatório contendo informações consolidadas sobre as ausências.
+
+Fluxo básico:
+
+- O usuário utiliza a funcionalidade "Gerar Relatório de Faltas".
+- O sistema disponibiliza funcionalidades de busca, incluindo opções como aluno, turma, data, disciplina e professor, visando facilitar o acesso às informações de falta.
+- O usuário escolhe os filtros desejados.
+- O sistema cria o relatório de acordo com os filtros selecionados.
+- O usuário examina o relatório de ausências produzido.
+- O usuário verifica a porcentagem de faltas.
+  
+## Notificaçoes
+
+Ator: Responsaveis
+
+Descrição: Envia uma notificação por e-mail aos pais/responsáveis informando sobre a situação de faltas do aluno.
+
+Fluxo básico:
+
+- O sistema realiza a verificação diária do percentual de faltas de cada aluno.
+- O sistema, automaticamente, ativa o caso de uso "Enviar Notificação" para os alunos que possuem um percentual de faltas abaixo do limite definido.
+- O sistema coleta os dados de e-mail dos pais/responsáveis.
+- O sistema encaminha a notificação por e-mail.
+
+## Acessibilidade
+
+Ator: Sistema
+
+Descrição: Permite a configuração das opções de acessibilidade e outras configurações do sistema.
+
+Fluxo básico:
+
+- O administrador entra na tela de configurações do sistema.
+- O administrador modifica as configurações de fonte, contraste, notificações e outras opções, tanto na versão web quanto na versão mobile do sistema.
+- O sistema armazena as configurações que foram aplicadas.
+- O sistema possibilita a modificação do registro de faltas.
 
 # Diagrama de sequencia
 
