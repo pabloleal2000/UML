@@ -6,7 +6,6 @@
 **Escola Infinito**
 </center></font>
 
->*Observação 1: A estrutura inicial deste documento é só um exemplo. O seu grupo deverá alterar esta estrutura de acordo com o que está sendo solicitado na disciplina.*
 
 **Conteúdo**
 
