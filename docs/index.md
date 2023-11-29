@@ -142,7 +142,24 @@ Fluxo básico:
 
 # Decisões de arquitetura
 
-*&lt;Descrever a infraestrutura escolhida para arquitetura do projeto&gt;*
+**Atendendo às Necessidades da Escola Infinito no Desenvolvimento do Sistema de Controle de Presenças**
+
+Para atender às necessidades específicas da Escola Infinito no desenvolvimento do Sistema de Controle de Presenças, foram tomadas diversas decisões de arquitetura, conforme detalhado a seguir:
+
+**Diagrama de Casos de Uso:**
+O Diagrama de Casos de Uso ilustra as interações entre os atores (usuários) e o sistema. Os principais atores neste contexto incluem professores, gestores da escola, alunos e pais/responsáveis. Os casos de uso identificados abrangem ações como "Fazer a chamada", "Gerar Relatórios de Faltas" e "Verificar porcentagem de presença". A decisão foi assegurar que todos os atores relevantes estivessem representados, considerando suas distintas responsabilidades e necessidades.
+
+**Diagrama de Sequência:**
+O Diagrama de Sequência descreve a interação entre objetos ao longo do tempo. Para o sistema de controle de presenças, foram identificadas sequências cruciais, como o registro de faltas pelos professores, geração de relatórios e envio de notificações. A decisão de priorizar a eficiência e a clareza nas interações entre os atores foi fundamental, garantindo uma resposta eficaz do sistema às ações dos usuários.
+
+**Diagramas de Classes:**
+Os Diagramas de Classes detalham a estrutura estática do sistema, incluindo classes, atributos e relacionamentos. Na Escola Infinito, classes como "Chamada", "Professor", "Acessibilidade", "Relatório de faltas", "Verificar porcentagem de presença" e "Pais e responsáveis" foram identificadas. A decisão de organizar as classes refletindo a estrutura organizacional da escola permitiu uma modelagem mais precisa e uma representação fiel das entidades envolvidas.
+
+**Diagrama de Componentes:**
+O Diagrama de Componentes representa a estrutura física do sistema, identificando os principais componentes e suas interações. A decisão foi modularizar o sistema, destacando componentes como "Módulo de Autenticação", "Módulo de Chamada", "Módulo de Relatórios" e "Módulo de Notificação". Isso facilita a manutenção, escalabilidade e reutilização de componentes específicos do sistema.
+
+**Diagrama de Implantação:**
+O Diagrama de Implantação descreve como o sistema será implantado em hardware físico. A decisão foi garantir que o sistema seja acessível a partir de qualquer navegador web, inclusive em dispositivos móveis. A arquitetura adotada suporta essa acessibilidade, permitindo que professores acessem o sistema de qualquer lugar e dispositivo.
 
 # Diagrama de implantação
 
