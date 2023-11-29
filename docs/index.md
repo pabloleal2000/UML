@@ -134,11 +134,11 @@ Fluxo básico:
 
 # Diagrama de classes
 
-*&lt;Diagrama de relacionamento entre classes para os seus atributos e operações&gt;*
+![alt](../src/img/Diagrama%20de%20classes.png)
 
 # Diagrama de Componentes
 
-*&lt;Diagrama para exibir a relação estrutural dos componentes de um sistema de software
+![alt](../src/img/Diagrama%20de%20Componentes.png)
 
 # Decisões de arquitetura
 
@@ -146,8 +146,7 @@ Fluxo básico:
 
 # Diagrama de implantação
 
-*&lt;Diagrama para exibir o relacionamento de hardware e software no projeto&gt;*
-
+![alt](../src/img/Diagrama%20de%20implantacao.png)
 # Referências
 
 *&lt;Lista de referências&gt;*
